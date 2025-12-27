@@ -106,7 +106,7 @@ export default function HeroSection() {
       <canvas
         ref={canvasRef}
         className="absolute inset-0 w-full h-full object-cover"
-        style={{ imageRendering: "high-quality" }}
+        style={{ imageRendering: "auto" as React.CSSProperties["imageRendering"] }}
       />
 
       {/* Text overlay with parallax effect */}
